@@ -1,0 +1,65 @@
+
+body {
+  background-image: url('images/space.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#planets-panel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.planet {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #222;
+  border-radius: 50%;
+  border: 1px solid #444;
+  cursor: grab;
+}
+
+#solar-system {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.orbit {
+  width: 70px;
+  height: 70px;
+  border: 2px dashed #888;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 12px;
+  text-align: center;
+}
+
+#result-message {
+  font-size: 24px;
+  color: lightgreen;
+  margin-top: 20px;
+}
